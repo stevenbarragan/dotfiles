@@ -1,1 +1,2 @@
 Bundle "vim-scripts/vim-auto-save"
+Bundle "w0ng/vim-hybrid"
