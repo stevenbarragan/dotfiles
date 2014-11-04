@@ -8,6 +8,12 @@ if filereadable(expand("~/.vimrc.before"))
   source ~/.vimrc.before
 endif
 
+" Track my before config
+if filereadable(expand("~/.yadr/vim/before/vimrc_before.vim"))
+  source ~/.yadr/vim/before/vimrc_before.vim
+endif
+
+
 " ================ General Config ====================
 
 set number                      "Line numbers are good

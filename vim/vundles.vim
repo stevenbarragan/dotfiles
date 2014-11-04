@@ -35,5 +35,12 @@ if filereadable(expand("~/.yadr/vim/.vundles.local"))
   source ~/.yadr/vim/.vundles.local
 endif
 
+
+" Track my own plugins
+if filereadable(expand("~/.yadr/vim/local.vuldle"))
+  source ~/.yadr/vim/local.vundle
+endif
+
+
 "Filetype plugin indent on is required by vundle
 filetype plugin indent on
