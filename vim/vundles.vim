@@ -37,7 +37,7 @@ endif
 
 
 " Track my own plugins
-if filereadable(expand("~/.yadr/vim/local.vuldle"))
+if filereadable(expand("~/.yadr/vim/local.vundle"))
   source ~/.yadr/vim/local.vundle
 endif
 
