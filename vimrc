@@ -25,6 +25,8 @@ set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
+set encoding=utf8
+set guifont=M+\ 1m\ regular\ Plus\ Nerd\ File\ Types\ Plus\ Pomicons:h11
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
