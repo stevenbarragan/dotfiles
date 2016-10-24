@@ -341,7 +341,6 @@ def needs_migration_to_vundle?
   File.exists? File.join('vim', 'bundle', 'tpope-vim-pathogen')
 end
 
-
 def list_vim_submodules
   result=`git submodule -q foreach 'echo $name"||"\`git remote -v | awk "END{print \\\\\$2}"\`'`.select{ |line| line =~ /^vim.bundle/ }.map{ |line| line.split('||') }
   Hash[*result.flatten]

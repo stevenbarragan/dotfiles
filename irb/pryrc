@@ -70,7 +70,6 @@ end
 
 Pry.config.commands.import default_command_set
 
-
 # === CONVENIENCE METHODS ===
 # Stolen from https://gist.github.com/807492
 # Use Array.toy or Hash.toy to get an array or hash to play with
