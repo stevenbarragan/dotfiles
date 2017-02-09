@@ -1,7 +1,7 @@
 Bundle "ecomba/vim-ruby-refactoring"
 Bundle "tpope/vim-rails.git"
 Bundle "tpope/vim-rake.git"
-Bundle "tpope/vim-rvm.git"
+Bundle "tpope/vim-rbenv.git"
 Bundle "vim-ruby/vim-ruby.git"
 Bundle "keith/rspec.vim"
 Bundle "skwp/vim-iterm-rspec"
