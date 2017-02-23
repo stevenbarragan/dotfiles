@@ -10,4 +10,4 @@ Bundle "ck3g/vim-change-hash-syntax"
 Bundle "tpope/vim-bundler"
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'tpope/vim-dispatch'
-
+Bundle 'tpope/vim-cucumber'
